@@ -12,8 +12,9 @@ int main(void)
 
 	ssize_t bytes_written = write(2, message, message_len);
 
-	if (bytes_written != message_len) {
+	if (bytes_written != message_len) 
+{
 	return 1;
-    }
+}
 	return 0;
 }
