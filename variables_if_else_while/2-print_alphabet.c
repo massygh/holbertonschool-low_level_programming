@@ -11,4 +11,5 @@
 int main(void)
 {
 	printf("abcdefghijklmnopqrstuvwxyz\n");
+	return (0);
 }
