@@ -4,10 +4,10 @@
 
 /* more headers goes there */
 
-/** 
- * main - This program will assign a random number to the variable 
+/**
+ * main - This program will assign a random number to the variable
  * @n: the source code in order to print whether the number
- * Return: 0 is succes 
+ * Return: 0 is succes
  */
 
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n", n); 
+		printf("%d is zero\n", n);
 	}
 	else
 	{
