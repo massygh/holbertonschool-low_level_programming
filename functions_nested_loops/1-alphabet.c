@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - This program will prints _putchar
- * Return: On succes 1
+ * print_alphabet - use prototype
+ *
  */
 
 void print_alphabet(void)
