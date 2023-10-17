@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - use prototype
+ * print_alphabet_x10 - use prototype
  *
  */
 
