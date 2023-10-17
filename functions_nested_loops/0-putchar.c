@@ -3,12 +3,8 @@
 
 /**
  * main - This program will prints _putchar
- * _putchar - writes the character c to stdout
- * @c: The character to print
  * Return: On succes 1
- *i
  */
-
 
 int main(void)
 {
