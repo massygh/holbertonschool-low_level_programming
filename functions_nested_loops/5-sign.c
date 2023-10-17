@@ -6,31 +6,31 @@
  *
  */
 
-int print_sign(int n)
+int print_sign(int n) 
 {
-	char sign;
-	int result;
-
-	if ( n > 0 )
+	if (n > 0) 
 	{
-		sign = '+';
-		result = 1;
-	}
-	else if (n == 0)
-	{
-		sign = '0';
-		result = 0;
-	}
-	else
-	{	
-		sign = '_';
-		result = -1;
-	}
-		putchar(sign);
+		putchar('+');
 		putchar(',');
 		putchar(' ');
-		putchar(result + '0');
-		putchar('\n');
+		putchar('1');
+	} 
+	else if (n == 0)
+	{
+		putchar('0');
+		putchar(',');
+		putchar(' ');
+		putchar('0');
+	} 
+	else 
+	{
+		putchar('-');
+		putchar(',');
+		putchar(' ');
+		putchar('-');
+		putchar('1');
+	}
 
-	return (result);
+	putchar('\n');
+	return n;
 }
