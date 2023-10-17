@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - use prototype
  * _islower - Write a function that checks for lowercase character.
- * @c - int
+ * @c: int
+ * Return: 0 is succes
  */
 
 int _islower(int c)
