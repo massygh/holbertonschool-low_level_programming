@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
+ * main - This program will prints _putchar
  * _putchar - writes the character c to stdout
  * @c: The character to print
- * main - compile
  * Return: On succes 1
- * 
+ *i
  */
 
 
