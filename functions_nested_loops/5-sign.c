@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - use prototype
+ * print_sign - function that prints the sign of a number
+ * @n : main
  *
-*/
+ */
 
 int print_sign(int n)
 
