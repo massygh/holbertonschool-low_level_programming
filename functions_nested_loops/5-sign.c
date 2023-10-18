@@ -4,6 +4,7 @@
 /**
  * print_sign - function that prints the sign of a number
  * @n : main
+ * Return: 0 is succes
  *
  */
 
