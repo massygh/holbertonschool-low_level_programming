@@ -13,14 +13,14 @@ int print_sign(int n)
 		_putchar('+');
 		_putchar(',');
 		_putchar(' ');
-		_putchar('1');
+		_putchar(1 + '0');
 	} 
 	else if (n == 0)
 	{
-		_putchar('0');
+		_putchar(0 + '0');
 		_putchar(',');
 		_putchar(' ');
-		_putchar('0');
+		_putchar(0 + '0');
 	} 
 	else 
 	{
@@ -28,7 +28,7 @@ int print_sign(int n)
 		_putchar(',');
 		_putchar(' ');
 		_putchar('-');
-		_putchar('1');
+		_putchar(1 + '0');
 	}
 
 	putchar('\n');
