@@ -3,22 +3,23 @@
 
 /**
  * print_line - print number
+ * @n: main
  * Return: 0 is succes
  */
 
 void print_line(int n)
 
 {
-	if (n <= 0) 
+	if (n <= 0)
 	{
 		_putchar('\n');
-	} 
-	else 
-	{	
+	}
+	else
+	{
 		while (n > 0)
 		{
-		_putchar('_');
-		n--;
+			_putchar('_');
+			n--;
 		}
 		_putchar('\n');
 	}
