@@ -3,7 +3,6 @@
 
 /**
  * print_numbers - print number
- * @a: int number
  * Return: 0 is succes
  */
 
