@@ -17,7 +17,7 @@ if (n > 0)
 
 	else
 	{
-	z = -n % 10;
+	z = -(n % 10);
 	_putchar(z + '0');
 	}
 	return (z);
