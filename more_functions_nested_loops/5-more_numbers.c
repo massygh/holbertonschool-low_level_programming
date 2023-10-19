@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 
 /**
- * more_numbers - print 10 times
+ * @more_numbers - print ten times
  * Return: 0 is succes
  */
 
 void more_numbers(void)
+
 {
 	int a;
 	int b;
