@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * print_last_digit
+ * print_last_digit - last digit of a number
  *@n : main
  * Return: Always 0.
  */
 
 int print_last_digit(int n)
 {
-int z = n % 10; 
+int z = n % 10;
 if (n > 0)
 	{
 	_putchar(z + '0');
@@ -20,5 +20,5 @@ if (n > 0)
 	z = -n % 10;
 	_putchar(z + '0');
 	}
-	return (z);	  
+	return (z);
 }
