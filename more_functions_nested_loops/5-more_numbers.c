@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 /**
- * @more_numbers - print ten times
+ * more_numbers - print ten times
  * Return: 0 is succes
  */
 
