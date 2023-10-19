@@ -2,13 +2,12 @@
 #include "main.h"
 
 /**
- * _isdigit - Write a function that checks for lowercase character.
- * @c: int
+ * print_numbers - print number
+ * @a: int number
  * Return: 0 is succes
  */
 
-void print_numbers(void);
-
+void print_numbers(void)
 {
 	int a;
 
