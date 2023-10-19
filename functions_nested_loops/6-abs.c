@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _abs - the absolute value of an integer
+ * @n : main
  *
  * Return: Always 0.
  */
