@@ -7,13 +7,18 @@
  * Return: Always 0.
  */
 
-int print_last_digit(int)
-
-	int a;
-	int b;
-
-	a = n;
-	b = a % 10;
-	result = "%d %d, a,z);
-	putchar(result)
-	return (b);
+int print_last_digit(int n)
+{
+	int z = n % 10; 
+if (n > 0)
+	{
+	_putchar(z + '0');
+	}
+	
+	else
+	{
+	z = -n % 10;
+	_putchar(z + '0');
+	}
+        return (z);	  
+}	
