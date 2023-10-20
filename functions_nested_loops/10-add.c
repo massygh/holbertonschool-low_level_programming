@@ -2,9 +2,11 @@
 #include "main.h"
 
 /**
- * add.c - adds two integers and returns the result
+ * add - adds two integers and returns the result
  * @a: variable
  * @b: variable
+ * Return: 0 is succes
+
  *
  */
 
