@@ -18,26 +18,25 @@ int main(void)
 			printf("FizzBuzz");
 			printf(" ");
 		}
-		
-		else if ((n % 5) == 0 )
+
+		else if ((n % 5) == 0)
 		{
 			printf("Buzz");
 			printf(" ");
 		}
-		
-		else if ((n % 3) == 0 )
+
+		else if ((n % 3) == 0)
 		{
 			printf("Fizz");
 			printf(" ");
 		}
-		
+
 		else
 		{
-			printf("%d" ,n);
+			printf("%d",n);
 			printf(" ");
 		}
 	}
 	printf("Buzz\n");
-
-	return(0);
+return(0);
 }			
