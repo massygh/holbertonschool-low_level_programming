@@ -2,37 +2,37 @@
 #include "main.h"
 
 /**
- *
- * Return: 0 is succes
+ * times_table - function that print multiple of 9
  */
 
 void times_table(void)
 
 {
-	int i, j;
-	int product;
+	int i, j, product;
+
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 9; j++)
-		{
+		_putchar('0');
 
-			if (j > 0)
+		for (j = 1; j < 10; j++)
+		{
+			product = i * j;
+
+			_putchar(',');
+			_putchar(' ');
+
+			if (product < 10)
 			{
-				putchar(',');
-				putchar(' ');
-			}
-			else if (product = i * j, product < 10)
-			{
-				putchar(' ');
-				putchar(product + '0');
+				_putchar(' ');
+				_putchar(product + '0');
 			}
 			else
 			{
-				putchar(product / 10 + '0');
-				putchar(product % 10 + '0');
+				_putchar((product / 10) + '0');
+				_putchar((product % 10) + '0');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
