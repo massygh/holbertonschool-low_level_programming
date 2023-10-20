@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - salam alikom
+ * main - main
  * Return: 0 is succes
  */
 
@@ -37,5 +37,7 @@ int main(void)
 			printf(" ");
 		}
 	}
+	putchar('\n');
+
 	return(0);
 }			
