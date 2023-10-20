@@ -33,10 +33,10 @@ int main(void)
 
 		else
 		{
-			printf("%d",n);
+			printf("%d" ,n);
 			printf(" ");
 		}
 	}
 	printf("Buzz\n");
-return(0);
-}			
+return (0);
+}
