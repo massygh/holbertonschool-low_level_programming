@@ -3,7 +3,7 @@
 
 /**
  * print_triangle - print ten times
- * @size - main
+ * @size: main
  * Return: 0 is succes
  */
 
