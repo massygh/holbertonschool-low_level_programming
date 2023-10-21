@@ -7,5 +7,5 @@ all: school
 
 school:
 	gcc -c -o main.o main.c
-main.c:
 	gcc -c -o school.o school.c
+	gcc main.o school.o -o school
