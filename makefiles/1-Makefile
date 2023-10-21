@@ -1,4 +1,8 @@
-all: school
+CC = gcc
+SRC = main.c school.c
+NAME = school
 
-school: main.c school.c
-	gcc main.c school.c -o school
+all: $(NAME)
+
+$(NAME): $(SRC)
+	$(CC) -o $(NAME) $^
