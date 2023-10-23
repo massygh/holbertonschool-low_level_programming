@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * *_strcpy - copy string
+ * _strcpy - copy string
  * @src: variable
  * @dest: varible2
  * Return - Always (dest_start)
@@ -23,5 +23,5 @@ char *_strcpy(char *dest, char *src)
 
 	*dest = '\0';
 
-	return dest_start;
+	return (dest_start);
 }
