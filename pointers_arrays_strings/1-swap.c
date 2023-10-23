@@ -5,13 +5,13 @@
  * swap_int - values of two integers.
  * @a: variable
  * @b: variable 2
- * 
+ *
  */
 
 void swap_int(int *a, int *b)
 
 {
 	int temp = *a;
-	*a = *b;       
+	*a = *b;
 	*b = temp;
 }
