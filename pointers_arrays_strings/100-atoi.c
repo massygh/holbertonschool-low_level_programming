@@ -6,7 +6,6 @@
 /**
  * _atoi - convert a string to an integer
  * @s: variable
- * @src: varibles
  * Return: Always (result * sign)
  */
 
