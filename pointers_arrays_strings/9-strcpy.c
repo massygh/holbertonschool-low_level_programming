@@ -6,7 +6,7 @@
  * _strcpy - copy string
  * @src: variable
  * @dest: varible2
- * Return - Always (dest_start)
+ * Return: Always (dest_start)
  */
 
 char *_strcpy(char *dest, char *src)
