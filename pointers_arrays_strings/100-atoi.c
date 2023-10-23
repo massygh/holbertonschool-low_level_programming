@@ -32,7 +32,7 @@ int _atoi(char *s)
 				return (sign == 1) ? INT_MAX : INT_MIN;
 			}
 			result = result * 10 + digit;
-		} else if (*s != '+' && *s != ' ')
+		} else if (*s != '+' && *s != ' ' && (*s < 'a' || *s > 'z') && (*s < 'A' || *s > 'Z'))
 		{
 			break;
 		}
