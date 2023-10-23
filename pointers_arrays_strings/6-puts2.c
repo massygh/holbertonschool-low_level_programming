@@ -5,7 +5,6 @@
  * puts2 - prints every other character of a string
  * @str: variable
  *
- * 
  */
 
 void puts2(char *str)
@@ -16,7 +15,7 @@ void puts2(char *str)
 	while (str[i] != '\0')
 	{
 		putchar(str[i]);
-		i += 2; 
+		i += 2;
 	}
 	putchar('\n');
 }
