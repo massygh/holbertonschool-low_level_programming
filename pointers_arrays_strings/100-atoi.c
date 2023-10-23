@@ -4,9 +4,9 @@
 #include <limits.h>
 
 /**
- * _atoi - copy string
+ * _atoi - convert a string to an integer
  * @s: variable
- * @src: varible2
+ * @src: varibles
  * Return: Always (resuult * sign)
  */
 
