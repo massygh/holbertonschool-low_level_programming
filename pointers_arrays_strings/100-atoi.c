@@ -7,7 +7,7 @@
  * _atoi - convert a string to an integer
  * @s: variable
  * @src: varibles
- * Return: Always (resuult * sign)
+ * Return: Always (result * sign)
  */
 
 
