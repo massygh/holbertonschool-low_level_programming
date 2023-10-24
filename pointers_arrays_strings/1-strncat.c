@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * _strcpy - copy string
+ * _strncat - two string
  * @src: variable
  * @dest: varible2
  * @n: variable3
