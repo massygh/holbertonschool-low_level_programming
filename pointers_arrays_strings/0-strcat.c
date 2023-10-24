@@ -4,7 +4,7 @@
 /**
  * _strcat - concatenates two strings
  * @dest: variable
- * @src: variables 
+ * @src: variables
  * Return: dest
  */
 
