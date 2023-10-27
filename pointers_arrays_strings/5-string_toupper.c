@@ -4,6 +4,7 @@
 
 /**
  * *string_toupper - changes all lowercase
+ * @str: variable
  * Return: Always str
  */
 
