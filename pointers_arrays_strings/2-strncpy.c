@@ -2,30 +2,27 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _strncpy - copies a string
+ * @dest: variable
+ * @src: variable2
+ * @n: variable3
+ * Return: Always dest_orig.
  */
 
 char *_strncpy(char *dest, char *src, int n)
 
-{ 
-	char *temp = dest;
+{
+	char *dest_orig = dest;
 
-	while (*temp != '\0')
+	while (n > 0 && *src != '\0')
 	{
-		temp++;
-	}
-
-	while (*src != '\0' && n > 0)
-	{
-		*temp = *src;
-		temp++;
-		src++;
+		*dest++ = *src++;
 		n--;
 	}
-
-	*temp = '\0';
-
-	return (dest);
+	while (n > 0)
+	{
+		*dest++ = '\0';
+		n--;
+	}
+	return (dest_orig);
 }
