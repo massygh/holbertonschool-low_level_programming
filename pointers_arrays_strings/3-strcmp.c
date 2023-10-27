@@ -6,7 +6,7 @@
  * @s1: variable
  * @s2: variable2
  *
- * Return: Always 0.
+ * Return: Always *(unsigned char *)s1) - (*(unsigned char *)s2).
  */
 
 int _strcmp(char *s1, char *s2)
