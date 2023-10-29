@@ -3,7 +3,7 @@
 
 /**
  * _strspn - gets the length of a prefix substring
- * @a: variable
+ * @s: variable
  * @accept: variable2
  * Return: Always count.
  */
