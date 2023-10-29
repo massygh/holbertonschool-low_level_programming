@@ -3,8 +3,8 @@
 
 /**
  * _memcpy - copies memory area.
- * @*dest: variable
- * @*src: variable 2
+ * @dest: variable
+ * @src: variable 2
  * @n: variable 3
  * Return: original_dest
  */
