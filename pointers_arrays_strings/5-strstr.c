@@ -4,7 +4,7 @@
 /**
  * _strstr - locates a substring
  * @haystack: variable
- * @needle): variable 2
+ * @needle: variable 2
  * Return: Always NULL
  */
 
