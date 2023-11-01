@@ -6,6 +6,7 @@
  * @n: variable
  * @guess: variable 2
  * _sqrt_recursive - natural square root of a number
+ * @_sqrt_recursive: variable 3
  * Return: 0 is succes
  */
 
