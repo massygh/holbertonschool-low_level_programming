@@ -6,6 +6,7 @@
  * @n: variable
  * @guess: variable 2
  * _sqrt_recursive - sqrt natural
+ * Return: 0 is succes
  */
 
 int _sqrt_recursive(int n, int guess)
