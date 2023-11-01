@@ -3,7 +3,6 @@
 
 /**
  * _sqrt_recursion - natural square root of a number
- * _sqrt_recursive - square
  * @n: variable
  * @guess: variable 2
  */
@@ -17,6 +16,11 @@ int _sqrt_recursive(int n, int guess)
 	else
 		return (_sqrt_recursive(n, guess + 1));
 }
+
+
+/**
+ * _sqrt_recursive - square
+ */ 
 
 int _sqrt_recursion(int n)
 {
