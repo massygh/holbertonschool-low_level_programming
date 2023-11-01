@@ -19,10 +19,6 @@ int _sqrt_recursive(int n, int guess)
 		return (_sqrt_recursive(n, guess + 1));
 }
 
-/**
- * _sqrt_recursion - Interface publique pour calculer la racine carrée.
- */
-
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
