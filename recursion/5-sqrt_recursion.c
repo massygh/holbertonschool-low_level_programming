@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _sqrt_recursion - natural square root of a number
  * @n: variable
- * @guess: variable 2
+ * @guess: L'estimation courante de la racine carrée.
  * _sqrt_recursive - _sqrt_recursion
- * Return: 0 is succes
+ * Return: La racine carrée si elle est trouvée, -1 si elle n'est pas
+ * trouvée.
  */
 
 int _sqrt_recursive(int n, int guess)
@@ -18,6 +18,10 @@ int _sqrt_recursive(int n, int guess)
 	else
 		return (_sqrt_recursive(n, guess + 1));
 }
+
+/**
+ * _sqrt_recursion - Interface publique pour calculer la racine carrée.
+ */
 
 int _sqrt_recursion(int n)
 {
