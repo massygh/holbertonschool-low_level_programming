@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
+ * _sqrt_recursive - Calcule la racine carrée récursivement.
  * @n: variable
  * @guess: L'estimation courante de la racine carrée.
- * _sqrt_recursive - _sqrt_recursion
  * Return: La racine carrée si elle est trouvée, -1 si elle n'est pas
  * trouvée.
  */
