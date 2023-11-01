@@ -3,6 +3,7 @@
 
 /**
  * _sqrt_recursion - natural square root of a number
+ * _sqrt_recursive - square
  * @n: variable
  * @guess: variable 2
  */
