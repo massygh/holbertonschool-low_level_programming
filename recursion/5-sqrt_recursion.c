@@ -5,8 +5,7 @@
  * _sqrt_recursion - natural square root of a number
  * @n: variable
  * @guess: variable 2
- * _sqrt_recursive - natural square root of a number
- * @_sqrt_recursive: variable 3
+ * _sqrt_recursive - _sqrt_recursion
  * Return: 0 is succes
  */
 
