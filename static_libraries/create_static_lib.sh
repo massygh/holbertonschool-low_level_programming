@@ -1,9 +1,6 @@
 #!/bin/bash
 
-for fichier_source in *.c
-do
-    if [ -f "$fichier_source" ]; then
-        fichier_objet="${fichier_source%.c}.o"
-        gcc -c "$fichier_source" -o "$fichier_objet"
-    fi
-done
+gcc -c *.c
+ar rcs liball.a *.o
+rm -f *.o
+echo "Bibliothèque statique liball.a créée avec succès."
