@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion - raised to the power 
+ * _pow_recursion - raised to the power
  * @x: variable
  * @y: variable2
+ * Return: Always 0
  */
 
 int _pow_recursion(int x, int y)
@@ -12,7 +13,7 @@ int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 	{
-		return(-1);
+		return (-1);
 	}
 	else if (y == 0)
 	{
