@@ -7,11 +7,9 @@
  * Return: Always 0.
  **/
 
-int main( __attribute__((unused)) int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 
 {
-                       printf("%s\n", argv[0]);
-   
-
-        return (0);
+    printf("%d\n", argc - 1);
+    return (0);
 }
