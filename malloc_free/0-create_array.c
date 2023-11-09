@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _create_array - creates an array of chars
+ * create_array - creates an array of chars
  * @size: variable
  * @c: varible2
  * Return: Always (a)
