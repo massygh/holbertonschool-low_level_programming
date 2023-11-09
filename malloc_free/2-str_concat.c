@@ -6,7 +6,7 @@
  * str_concat - Entry point
  * @s1: String 1
  * @s2: String 2
- * Returns pointer should point to a newly allocated space in memory or NULL
+ * Returns: pointer should point to a newly allocated space in memory or NULL
  */
 
 char *str_concat(char *s1, char *s2)
@@ -22,8 +22,8 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-			for (n1 = 0; s1[n1] != '\0'; n1++)
-				;
+	for (n1 = 0; s1[n1] != '\0'; n1++)
+		;
 	for (n2 = 0; s2[n2] != '\0'; n2++)
 		;
 	strnew =(char *)malloc((n1 + n2 + 1) * sizeof(char));
