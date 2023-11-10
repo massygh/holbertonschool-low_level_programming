@@ -1,27 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * str_concat - Entry point
- * @s1: String 1
- * @s2: String 2
- * Returns pointer should point to a newly allocated space in memory or NULL
+ * free_grid - Entry point
+ *@grid: rows of matrix
+ *@height: columns of string
+ * Return: a pointer to a 2 dimensional array of integers or null
  */
-
 void free_grid(int **grid, int height)
 {
 	int i;
-
-	if (grid == NULL)
-	{
-		return;
-	}
-
+	int *p;
 	for (i = 0; i < height; i++)
 	{
-		free(grid[i]);
+		p = grid[i];
+		free(p);
 	}
-
 	free(grid);
 }
