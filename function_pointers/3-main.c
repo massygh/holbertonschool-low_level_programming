@@ -8,11 +8,11 @@
  * @argv: array of command-line arguments
  * Return: 0 if successful, otherwise 98, 99, or 100
  */
-
 int main(int argc, char *argv[])
 {
 	int num1, num2, result;
-	int (*op_func)(int, int);
+	char *operator;
+	int (*operation)(int, int);
 
 	if (argc != 4)
 	{
@@ -22,10 +22,20 @@ int main(int argc, char *argv[])
 
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
+	operator = argv[2];
+	operation = get_op_func(operator);
 
-	op_func = get_op_func(argv[2]);
-	result = op_func(num1, num2);
+	if (!operation || ((*operator == '/' || *operator == '%') && num2 == 0))
+	{
+		printf("Error\n");
 
+		if (*operator == '/' || *operator == '%')
+			return (100);
+		else
+			return (99);
+	}
+
+	result = operation(num1, num2);
 	printf("%d\n", result);
 
 	return (0);
