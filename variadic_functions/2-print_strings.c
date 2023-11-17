@@ -5,7 +5,6 @@
  * print_strings - print strings
  * @separator: variable 1
  * @n: variable
- * Return: Always sum.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
